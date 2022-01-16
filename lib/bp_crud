@@ -37,7 +37,7 @@ fn_crud() {
     echo
     bannerColor 'Installing CRUD.' "blue" "*"
     bannerColor 'CRUD: Running composer require backpack/crud:"4.1.*"' "blue" "*"
-    composer require backpack/crud:"4.1.*" || exit 4
+    composer require backpack/crud:"^4.2.*" || exit 4
     echo
     bannerColor 'CRUD: Running composer require backpack/generators --dev' "blue" "*"
     composer require backpack/generators --dev || exit 4
